@@ -29,7 +29,7 @@ body {
   left: 0;
   width: 100%;
   padding: 4rem 12% 4rem;
-  background: rgba(rgba(0, 0, 0, 0.3));
+  background: rgba (0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -49,13 +49,12 @@ body {
 .logo span {
   text-shadow: 0 0 25px var(--main-color);
 }
-
 .navbar a {
   font-size: 1.8rem;
   color: var(--text-color);
   margin-left: 4rem;
-  transition: 0.3s ease;
   font-weight: 500;
+  transition: 0.3s ease;
   border-bottom: 3px solid transparent;
 }
 .navbar a:hover,
